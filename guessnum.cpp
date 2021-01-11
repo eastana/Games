@@ -3,8 +3,8 @@
 using namespace std;
 
 void space() {
-  for (int i = 0; i < 10; i++) {
-    cout << endl;
+  for (int i = 0; i < 30; i++) {
+    cout << "\n";
   }
 }
 
@@ -59,10 +59,11 @@ int main() {
   cin >> name;
   
   space();
-  cout << "Let's play a game " << name;
+  cout << "Let's play a game " << name <<"\n";
   
   game();
   again();
 
   return 0;
 }
+
